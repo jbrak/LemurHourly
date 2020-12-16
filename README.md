@@ -1,5 +1,5 @@
 # LemurHourly
-Aim is to create twitter bot that posts a lemur picture every hour.
+Repo to create twitter bot that posts a lemur picture every hour.
 
 [Idea from Raccoon Hourly](https://twitter.com/raccoonhourly)
 
