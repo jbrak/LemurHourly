@@ -15,8 +15,9 @@ Repo to create twitter bot that posts a lemur picture every hour.
 - random
 - schedule
 - Time
+- json
 
-<b>Note:</b> os, time and random come standard with python3.
+<b>Note:</b> os, json, time and random come standard with python3.
 ### Installing Librarys
 ```pip install tweepy```
 
