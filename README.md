@@ -18,4 +18,4 @@ Repo to create twitter bot that posts a lemur picture every hour.
 ### Installing Librarys
 ```pip install tweepy```
 
-```pip install scheule```
+```pip install schedule```
