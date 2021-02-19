@@ -1,5 +1,6 @@
 import json
 import tweepy
+from time import sleep
 
 with open('auth.json') as f:
   data = json.load(f)
@@ -17,4 +18,8 @@ access_token_secret = data["access_token_secret"]
 #api = tweepy.API(auth)
 
 def tweet():
-    api.update_status("Hello World")
+    try:
+        api.update_status("Hello World")
+    except:
+        sleep(600)
+        tweet()
