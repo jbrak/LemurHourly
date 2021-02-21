@@ -9,6 +9,7 @@ Repo to create twitter bot that posts a lemur picture every hour.
 - [Tweepy Documentation](http://docs.tweepy.org/en/latest/index.html)
 - [Schedule Documentation](https://schedule.readthedocs.io/en/stable/)
 - [JSON tutorial](https://www.programiz.com/python-programming/json)
+-[Error Handeling tutorial](https://www.kite.com/python/answers/how-to-catch-and-print-exception-messages-in-python)
 
 ## Libraries Needed
 - tweepy
