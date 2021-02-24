@@ -22,7 +22,7 @@ def tweet(accumulator = 0):
     try:
         api.update_with_media(randomFile())
     except Exception as e:
-        #sleep(300)
+        sleep(300)
         accumulator += 1
         if accumulator < 5:
             tweet(accumulator)
