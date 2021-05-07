@@ -10,7 +10,7 @@ def job():
     print(time1-time())
 
 
-schedule.every(1.5).hour.do(job)
+schedule.every(1.5).hours.do(job)
 
 while True:
     schedule.run_pending()
